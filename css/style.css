@@ -45,6 +45,10 @@ body {
     background: var(--bg);
 }
 
+section {
+    padding: 2rem 7%;
+}
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -198,6 +202,37 @@ body {
     text-align: center;
 }
 
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/img/home.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    max-width: 60rem;
+}
+
+.home .content h3 {
+    font-size: 6rem;
+    text-transform: none;
+    color: rgb(39, 39, 41);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -214,6 +249,10 @@ body {
 
     .header {
         padding: 1.5rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
     }
 }
 
@@ -246,6 +285,17 @@ body {
         width: 90%;
         right: 2rem;
     }
+
+    .home {
+        background-position: left;
+        justify-content: center;
+        /* text-align: center; */
+    }
+
+    .home .content h3 {
+        font-size: 1.5rem;
+    }
+
 }
 
 @media (max-width: 450px) {
