@@ -99,7 +99,7 @@ body {
 }
 
 .header .icons div:hover {
-    color: var(--main-color)
+    color: var(--main-color);
 }
 
 #menu-btn {
@@ -224,11 +224,10 @@ body {
     
     .header .navbar {
         position: absolute;
-        top: 100%;
-        right: -100%;
+        top: 100%; right: -100%;
         background: #fff;
-        background: 30rem;
-        height: calc(100vh - 90.5rem);
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
     }
 
     .header .navbar.active {
@@ -247,11 +246,10 @@ body {
         width: 90%;
         right: 2rem;
     }
+}
 
-    @media (max-width: 450px) {
-        html {
-            font-size: 50%;
-        }
-
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
     }
 }
