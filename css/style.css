@@ -5,7 +5,7 @@
     --black: #13131a;
     --bg: #010103;
     --border: 0.1rem solid rgba(255, 255, 255, 0.3);
-
+    --link-color: #1E87F0; 
 
 }
 
@@ -17,7 +17,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     transition: 0.2s linear;
 }
 
@@ -47,6 +47,19 @@ body {
 
 section {
     padding: 2rem 7%;
+}
+
+.heading {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span {
+    color: var(--main-color);
+    text-transform: uppercase;
 }
 
 .btn {
@@ -221,12 +234,43 @@ section {
     color: rgb(39, 39, 41);
 }
 
+.about .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
 
+.about .row .image {
+    flex: 1 1 45rem;    
+}
 
+.about .row .image img {
+    width: 100%;
+}
 
+.about .row .content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
 
+.about .row .content h3 {
+    font-size: 3rem;
+    color: #fff;
+}
 
+.about .row .content p {
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8rem;
+    text-transform: none;
+}
 
+/* Added to project */
+#link-color {
+    color: var(--link-color);
+}
 
 
 
