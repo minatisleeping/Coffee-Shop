@@ -1,6 +1,6 @@
 # Coffee Shop Website
 
-This design belongs to [Mr. Web Designer](https://www.youtube.com/@MrWebDesignerAnas), you can see the video [here](https://youtu.be/52sKmRsk7xU)
+This design belongs to [Mr. Web Designer](https://www.youtube.com/@MrWebDesignerAnas)
 
 ## :writing_hand: Description
 * The purpose of doing this web is to practice `HTML`, `CSS`, `JavaScript`, `Web Responsive`
