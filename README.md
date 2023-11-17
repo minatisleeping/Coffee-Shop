@@ -15,10 +15,10 @@ This design belongs to [Mr. Web Designer](https://www.youtube.com/@MrWebDesigner
 ![Body Demo](review/review-4.png)
 ![Footer Demo](review/review-5.png)
 
-<!-- ### :round_pushpin: Links
-- Solution URL: [Github](https://github.com/minatisleeping/Shopee-Web)
-- Live Site URL: [Github Page](https://minatisleeping.github.io/Shopee-Web/) -->
+### :round_pushpin: Links
+- Solution URL: [Github](https://github.com/minatisleeping/Coffee-Shop)
+- Live Site URL: [Github Page](https://minatisleeping.github.io/Coffee-Shop/)
 
 
-<!-- ## :heavy_check_mark:	 License & Copyright
-&copy; 2023 Mai Minh Nhat minatisleeping Licensed under the [MIT LICENSE](https://github.com/minatisleeping/Shopee-Web/blob/main/LICENSE). -->
+## :heavy_check_mark:	 License & Copyright
+&copy; 2023 Mai Minh Nhat minatisleeping Licensed under the [MIT LICENSE](https://github.com/minatisleeping/Coffee-Shop/blob/main/LICENSE).
